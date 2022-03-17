@@ -1,0 +1,126 @@
+.logobd{
+    margin: 15px;
+    margin-top: 25px;
+}
+.logo{
+    width: 40px;
+    height: 48px;
+}
+span {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-left: 7px;
+    letter-spacing: 3px;
+}
+.carrybd{
+    text-align: center;
+    margin-top: 30%;
+}
+.wlc{
+    text-align: center;
+    color: white; 
+    font-weight: 700;
+    font-family: Lexend;
+    letter-spacing: 2px;
+    font-size: 40px;   
+}
+.text2{
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.loginBtn{
+    width: 150px;    
+    color: white;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: Lexend;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 30px;
+}
+.btn:hover{
+    background-color: white;   
+    color: #02816B;
+}
+.account{
+    color: #02816B;
+    font-family: Lexend;
+    font-weight: 600;
+    letter-spacing: 2px;
+    /* margin-top: 50px; */
+}
+.img{
+    margin-left: 40px;
+    width: 28px;
+    height: 28px;
+}
+.img:hover{
+    margin-left: 40px;
+    background-color: #02816B;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+}
+.email{
+    color: #808080;
+    font-size: 13px;
+}
+input{
+    color: rgba(37, 37, 37, 0.726);
+    border: 1px solid #02816B;
+    padding: 5px 10px 5px 50px;
+    font-size: 18px;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+    outline: 0;
+}
+.form-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* font-family: Lexend; */
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+}
+.icon{
+    position: absolute;
+    left: 15px;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create{
+    color: white;
+    font-size: 14px;
+    font-family: Lexend;
+    /* font-weight: 500; */
+    background-color: #02816B;
+    width: 100%;
+    border: 1px solid #02816B;
+}
+.create:hover{
+    color: #02816B;
+    font-size: 14px;
+    font-family: Lexend;
+    /* font-weight: 500; */
+    background-color: white;
+    width: 100%;
+    border: 1px solid #02816B;
+}
+.regInfo{
+    color: #808080;
+    font-size: 12px;
+    font-family: Lexend;
+}
+.reg{    
+    font-family: Lexend;
+    color: #02816B;
+}

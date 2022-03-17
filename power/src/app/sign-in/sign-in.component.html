@@ -1,0 +1,78 @@
+
+  <!-- OFFER -->
+  <section class="row w-100 py-0 m-0 bg-light" id="features">
+
+    <div class="col-lg-6 py-5">
+        <div class="container">
+            <div class="logobd">
+                <a class="navbar-brand" href="#">
+                  <img class="logo2" src="../assets/img/logo2.png" alt="">
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <h2 class="account mb-4 text-center">Sign In to Power</h2>
+                    
+                    <div class="col-img text-center mb-4 mx-auto d-block">
+                        <img class="img" src="../../assets/img/linkedln.png" alt="">
+                        <img class="img" src="../../assets/img/fb.png" alt="">
+                        <img class="img" src="../../assets/img/google.png" alt="">
+                    </div>
+
+                    <p class="email mb-4 text-center">or use email to sign in</p>
+
+                    <div *ngIf="response" [class]="status ? 'alert alert-success' : 'alert alert-danger' ">
+                        {{message}}
+                    </div>
+                    <form [formGroup]="loginForm" (ngSubmit)="signIn()">
+                        <div class="form justify-content-center col">
+                            <div class="form-input mb-2">
+                                <span class="icon">
+                                    <img src="../../assets/img/mail.png" alt="" sizes="20" srcset="">
+                                </span>
+                                <input type="email" formControlName="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                            </div>
+    
+                            <div class="form-input mb-2">
+                                <span class="icon">
+                                    <img src="../../assets/img/unlock.png" alt="" sizes="20" srcset="">
+                                </span>
+                                <input type="password" formControlName="password" class="form-control" id="exampleFormControlInput1" placeholder="Password">
+                            </div>
+                            <p class="forgotPwd">Forgot Password?</p>
+                            <div class="form-input mt-5 mb-4">
+                                <input type="submit" class="create form-control" value="SIGN IN">
+                            </div>
+                            <div class="text-center d-none d-md-block d-lg-none">
+                                <a class="btn" routerLink="/signUp">Don't have an account? Sign Up</a>
+                            </div>              
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-img d-none d-lg-block" style="background-color: #02816B; height: 100vh;">
+        <div class="container">
+            
+
+            <div class="carrybd justify-content-center">                
+                <p class="wlc">Hello, User</p>
+                <div class="lbody">                
+                    <p class="text2 text-center">Enter personal details to journey with us</p>
+                </div>
+                <button routerLink="/signUp" class="btn createBtn w-50">Create Account</button>
+            </div>
+
+        </div>
+    </div>
+
+</section><!-- OFFER -->
+
+
+
+
+<router-outlet></router-outlet>
+
+<router-outlet></router-outlet>
